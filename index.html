@@ -15,7 +15,7 @@
               if (node.isMesh) {
                 node.material.color.set('#FFC0CB'); // Pink
                 node.material.transparent = true;
-                node.material.opacity = 0.6; // 60% visibility
+                node.material.opacity = 0.8; // 80% visibility
                 node.material.needsUpdate = true;
               }
             });
@@ -41,7 +41,7 @@
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
       <a-entity mindar-image-target="targetIndex: 0">
-        <a-entity position="0 0 -1.44">
+        <a-entity position="0 0 0">
           <a-gltf-model 
             src="#stairsModel" 
             rotation="90 0 0" 
@@ -55,5 +55,6 @@
 </html>
   </body>
 </html>
+
 
 
